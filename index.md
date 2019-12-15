@@ -29,7 +29,7 @@
     					<div class="invalid-feedback">Please fill out this field.</div> 
 					</div>
 					  
-					  
+					 
 
 					<button type="submit" class="btn btn-primary">Sign In</button>
 					 <p class="text-justify text-primary"><a href="">Forgot Password?</a></p>
@@ -39,7 +39,7 @@
 			</div>
 
 		</div>
-
+		<div><span> </span></div>
 
 		<div class="col-sm-6 border rounded border-primary my-3 p-3">
 			  <div class="pos-f-t">
@@ -64,16 +64,16 @@
 				</div>
 				<div class="row my-3 p-3">
 					<div class="col-sm-6 my-3 p-3">
-					<div class="container border rounded bg-light my-3 p-3">
+					<div class="container-md border rounded bg-light my-3 p-3">
 						<h3 class="text-primary text-center">NGN ******<h3><pre></pre>
-						<h3 class="text-primary display-3 text-center"><span class="badge badge-danger my-3 p-3 justify-content-center">Expenses</span></h3>
+						<h3 class="text-primary text-center"><span class="badge badge-danger badge-fluid my-3 p-3 justify-content-center" style="width: 150px">Expenses</span></h3>
 
 					</div>
 					</div>
 					<div class="col-sm-6 my-3 p-3">
-						<div class="container border rounded bg-light my-3 p-3">
+						<div class="container-md border rounded bg-light my-3 p-3">
 							<h3 class="text-primary text-center">NGN ******<h3><pre></pre>
-							<h3 class="text-primary display-3 text-center"><span class="badge badge-success my-3 p-3 justify-content-center">Income</span></h3>
+							<h3 class="text-primary text-center"><span class="badge badge-success my-3 p-3 justify-content-center" style="width: 150px">Income</span></h3>
 
 						</div>
 					</div>
