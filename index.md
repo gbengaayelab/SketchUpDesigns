@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>SketchUp Designs</title>
+	<title>SketchUp Designs - dashboard</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600&display=swap');
@@ -10,6 +10,9 @@
 			box-sizing: border-box;
 			font-family: 'Montserrat', sans-serif;
 			font-weight: 300;
+            min-height: 100vh;
+            display: grid;
+            grid-template-rows: 10vh auto 5vh;
 		}
 		body, h1,h2,h3,h4,h5,h6 {
 			margin: 0;
@@ -21,16 +24,98 @@
 			color: inherit;
 		}
 		span {
-			font-size: .8rem;
 			margin-top: 3%;
 		}
+        header {
+            display: grid;
+            grid-template-columns: 1fr 6fr 3fr;
+            grid-column-gap: 10px;
+            align-items: center;
+            padding: 0 5%;
+        }
+        header .headerItem {
+            justify-self: center;
+        }
+        header .headerItem2, header .hamburger {
+            justify-self: left;
+        }
+        header span {
+            margin-top: 0%;
+        }
+        header .hamburger {
+            padding-top: 30%;
+            cursor: pointer;
+        }
+        .hamburger>span {
+            display: block;
+            width: 30px;
+            height: 7px;
+            border-top: 2.5px solid gray;
+        }
 		main {
 			display: grid;
-			min-height: 100vh;
 			background-color: black;
-			grid-template-columns: 1fr;
-			grid-template-rows: 1fr;
+            padding: 5% 0;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px 100px;
+            grid-row-gap: 20px;
+            justify-items: center;
 		}
+        .budget {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            justify-items: center;
+            width: 90%;
+        }
+        .dashboardCard {
+            background-color: white;
+            padding: 5%;
+            display: grid;
+            width: 90%;
+        }
+        .dashboardCard span:first-child {
+            font-weight: 500;
+        }
+        .financialTarget {
+            background-color: white;
+            width: 80%;
+            padding: 5%;
+            display: grid;
+        }
+        progress {
+            background-color:white;
+            height: 40px;
+            width: 100%;
+            border: 1px solid gray;
+        }
+        @media screen and (min-width: 600px) {
+            header {
+                grid-column-gap: 5px;
+            }
+            header .hamburger {
+                padding-top: 10%;
+            }
+            main {
+                padding: 2% 0;
+                grid-row-gap: 50px;
+                grid-template-rows: 100px 150px;
+            }
+            .financialTarget {
+                width: 80%;
+                padding: 2% 5%;
+            }
+        }
+        footer {
+            padding: 2% 0;
+            text-align: center;
+        }
+        .smallText {
+            font-size: .8rem;
+        }
+        .normalText {
+            font-size: 1rem;
+        }
 		.smallBand {
 			background-color: white;
 			display: grid;
@@ -47,37 +132,39 @@
 				padding: 5%;
 			}
 		}
-		form {
-			margin-top: 5%;
-		}
-		form input, form button {
-			width: 60%;
-			padding: 5% 10%;
-			border: 1px solid gray;
-			border-radius: 50px;
-			margin: 5% 0;
-		}
-		form button {
-			width: 80%;
-			background-color: black;
-			color: white;
-			font-size: 1.3rem;
-		}
 	</style>
 </head>
 <body>
-<main>
-	<section class="smallBand">
-		<h1>Welcome</h1>
-		<span style="margin-top: 5%;">Sign In</span>
-		<form>
-			<input type="email" name="email" placeholder="Email" autofocus>
-			<input type="password" name="dummypassword" placeholder="*******"> 
-			<button type="submit">Sign in</button>
-		</form>
-		<span style="display: block;"><a href="#">Forgot password?</a></span>
-		<span style="display: block;"><a href="#">Sign Up</a></span>
-	</section>
-</main>
+    <header>
+        <div class="headerItem hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="headerItem headerItem2"><span class="normalText">Dashboard</span></div>
+        <div class="headerItem">
+            <a href="#" class="smallText">Profile</a>
+            <a href="#" class="smallText">Logout</a>
+        </div>
+    </header>
+    <main>
+        <div class="budget">
+            <div class="dashboardCard">
+                <span>NGN ***, ***</span>
+                <span>Expenses</span>
+            </div>
+            <div class="dashboardCard">
+                <span>NGN ***, ***</span>
+                <span>Income</span>
+            </div>
+        </div>
+        <div class="financialTarget">
+            <progress min="0" max="100000" value="90000"></progress>
+            <span>Financial Target</span>
+        </div>
+    </main>
+    <footer>
+        <span>&copy; Dev Trainig, 2019</span>
+    </footer>
 </body>
 </html>
