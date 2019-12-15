@@ -33,9 +33,6 @@
             align-items: center;
             padding: 0 5%;
         }
-        @media screen and (min-width: 600px) {
-            
-        }
         header .headerItem {
             justify-self: center;
         }
@@ -91,6 +88,23 @@
             height: 40px;
             width: 100%;
             border: 1px solid gray;
+        }
+        @media screen and (min-width: 600px) {
+            header {
+                grid-column-gap: 5px;
+            }
+            header .hamburger {
+                padding-top: 10%;
+            }
+            main {
+                padding: 2% 0;
+                grid-row-gap: 50px;
+                grid-template-rows: 100px 150px;
+            }
+            .financialTarget {
+                width: 80%;
+                padding: 2% 5%;
+            }
         }
         footer {
             padding: 2% 0;
