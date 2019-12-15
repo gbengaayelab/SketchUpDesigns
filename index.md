@@ -4,20 +4,23 @@
 	<title>SketchUp Designs</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
 	
 	<!-- Icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </head>
-<body class="bg-secondary">
+<body class="bg-secondary" style="font-family: 'Montserrat', sans-serif;">
 	<div class="row bg-light border rounded">
 		<div class="col-sm-6 shadow p-4 mb-4 bg-white borderless rounded border-secondary my-2 p-2">
 			<h3 class="display-3 text-center text-primary">Welcome</h3>
-			<div class="container border rounded my-3 p-3 border-secondary">
+			<div class="container border rounded my-3 p-3 border-primary">
 				<form action="#" class="was-validated">
 					<div class="form-group">
 						<label for="email">Email Address:</label>
