@@ -12,7 +12,7 @@
 </head>
 <body class="bg-secondary">
 	<div class="row bg-light border rounded my-3 p-3">
-		<div class="col-sm-6 border rounded border-secondary my-3 p-3">
+		<div class="col-sm-6 shadow p-4 mb-4 bg-white borderless rounded border-secondary my-3 p-3">
 			<h3 class="display-3 text-center text-primary">Welcome</h3>
 			<div class="container border rounded my-3 p-3 border-secondary">
 				<form action="#" class="was-validated">
@@ -41,7 +41,7 @@
 		</div>
 		<div><span> </span></div>
 
-		<div class="col-sm-6 border rounded border-secondary my-3 p-3">
+		<div class="col-sm-6 shadow p-4 mb-4 bg-white borderless rounded border-secondary my-3 p-3">
 			  <div class="pos-f-t">
 				  <div class="collapse" id="navbarToggleExternalContent">
 				    <div class="bg-dark p-4">
