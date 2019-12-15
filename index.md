@@ -31,7 +31,7 @@
 					  
 					 
 
-					<button type="submit" class="btn btn-primary">Sign In</button>
+					<button type="submit" class="btn btn-primary" style="width: 100%">Sign In</button>
 					 <p class="text-justify display-block text-primary"><a href="" class="text-decoration-none">Forgot Password?</a></p>
 					 <p class="text-justify  display-block text-primary "><a href="" class="text-decoration-none">Signup</a></p>
 
@@ -97,7 +97,7 @@
 	</div>
  	<div class="row">
 					<div class="col-sm-12 my-3 p-3 justify-content-center">
-						<footer class="text-center text-white border bg-dark rounded" style="height: 50px"><pre></pre>
+						<footer class="text-center text-white border border-dark bg-dark rounded" style="height: 100px"><pre></pre>
 							Collaboratively Built @2019
 						</footer>
   		 
