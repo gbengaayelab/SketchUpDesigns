@@ -10,11 +10,11 @@
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	
 </head>
-<body>
+<body class="bg-secondary">
 	<div class="row bg-light border rounded my-3 p-3">
-		<div class="col-sm-6 border rounded border-primary my-3 p-3">
+		<div class="col-sm-6 border rounded border-secondary my-3 p-3">
 			<h3 class="display-3 text-center text-primary">Welcome</h3>
-			<div class="container border rounded my-3 p-3 border-primary">
+			<div class="container border rounded my-3 p-3 border-secondary">
 				<form action="#" class="was-validated">
 					<div class="form-group">
 						<label for="email">Email Address:</label>
@@ -32,8 +32,8 @@
 					 
 
 					<button type="submit" class="btn btn-primary">Sign In</button>
-					 <p class="text-justify text-primary"><a href="">Forgot Password?</a></p>
-					 <p class="text-justify text-primary "><a href="">Signup</a></p>
+					 <p class="text-justify display-block text-primary"><a href="" class="text-decoration-none">Forgot Password?</a></p>
+					 <p class="text-justify  display-block text-primary "><a href="" class="text-decoration-none">Signup</a></p>
 
 				</form>
 			</div>
@@ -41,7 +41,7 @@
 		</div>
 		<div><span> </span></div>
 
-		<div class="col-sm-6 border rounded border-primary my-3 p-3">
+		<div class="col-sm-6 border rounded border-secondary my-3 p-3">
 			  <div class="pos-f-t">
 				  <div class="collapse" id="navbarToggleExternalContent">
 				    <div class="bg-dark p-4">
@@ -81,10 +81,12 @@
 
 				<div class="row my-3 p-3">
 					<div class="col-sm-12 my-3 p-3 justify-content-center">
-						<div class="progress" style="height: 100px">
-  				<div class="progress-bar-striped progress-bar-animated text-white text-center bg-success" style="width:70%"><h5><pre></pre>70% Financial Target Realized</h5></div>
+						<div class="container-fluid bg-white border rounded my-3 p-3">
+							<div class="progress" style="height: 100px">
+		  					<div class="progress-bar-striped progress-bar-animated text-white text-center bg-success" style="width:70%"><h5><pre></pre>70% Financial Target Realized</h5></div>
 
   						</div>
+  					</div>
 					</div>
 
 				</div>
