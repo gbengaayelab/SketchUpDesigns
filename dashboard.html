@@ -24,7 +24,7 @@
 			color: inherit;
 		}
 		span {
-			margin-top: 3%;
+			margin: 1.5% 0;
 		}
         header {
             display: grid;
@@ -92,9 +92,10 @@
         @media screen and (min-width: 600px) {
             header {
                 grid-column-gap: 5px;
+                grid-template-columns: .5fr 9fr 1fr;
             }
             header .hamburger {
-                padding-top: 10%;
+                padding-top: 15%;
             }
             main {
                 padding: 2% 0;
