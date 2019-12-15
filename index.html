@@ -69,7 +69,7 @@
 					<div class="col-sm-6 my-2 p-2">
 					<div class="container-md border rounded bg-light my-3 p-3">
 						<h3 class="text-primary text-center">NGN ******<h3><pre></pre>
-						<h3 class="text-primary text-center"><span class="badge badge-danger badge-fluid my-3 p-3 justify-content-center" style="width: 150px">Expenses</span></h3>
+						<h3 class="text-primary text-center"><span class="badge badge-primary badge-fluid my-3 p-3 justify-content-center" style="width: 150px">Expenses</span></h3>
 
 					</div>
 					</div>
